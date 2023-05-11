@@ -6,7 +6,6 @@
 }
 
 /*GENERAL*/
-
 body {
     margin-top: 150px;
 }
@@ -78,8 +77,6 @@ header {
 .column-1-3 a:hover {
     border: 1px solid black;
 }
-
-
 
 header .my-row .column-1-2 img {
     width: 150px;
@@ -155,9 +152,6 @@ main .my-row{
     display: none;
 }
 
-
-
-
 /*FOOTER*/
 footer {
     background-color: #1A1A1A;
@@ -191,19 +185,3 @@ footer .social-link h5 {
 footer .social-link a {
     font-size: 1.5em;
 }
-
-
-
-
-
-
-
-
-
-/*debug*/
-
-.debug .photo-text{
-    backgrou
-}
-
-
