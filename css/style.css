@@ -6,6 +6,10 @@
 }
 
 /*GENERAL*/
+
+body {
+    margin-top: 150px;
+}
 .my-row {
     max-width: 1200px;
     margin: auto;
@@ -31,6 +35,12 @@
 header {
     background-color: #FF6900;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
 
 .column-1-1 {
@@ -82,7 +92,6 @@ main .my-row{
 }
 .photo img {
     width: 100%;
-    display: block;
 }
 
 .photo-text > * {
@@ -133,6 +142,21 @@ main .my-row{
     background-color: green;
     padding: 5px 10px;
 }
+
+.second-image {
+    display: none;
+}
+
+.photo:hover .second-image {
+    display: block;
+}
+
+.photo:hover img:not(.second-image) {
+    display: none;
+}
+
+
+
 
 /*FOOTER*/
 footer {
