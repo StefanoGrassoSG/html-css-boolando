@@ -91,6 +91,10 @@ main .my-row{
     width: 100%;
 }
 
+.photo img:first-child {
+    display: block;
+}
+
 .photo-text > * {
     color: black;
 }
